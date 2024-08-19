@@ -6290,7 +6290,6 @@ var simplemaps_worldmap_mapinfo = {
         "DE",
         "FR",
         "AL",
-        "AM",
         "AT",
         "BY",
         "BE",
@@ -6298,7 +6297,6 @@ var simplemaps_worldmap_mapinfo = {
         "BG",
         "CZ",
         "EE",
-        "GE",
         "GR",
         "HU",
         "IS",
@@ -6318,7 +6316,6 @@ var simplemaps_worldmap_mapinfo = {
         "FI",
         "SE",
         "CH",
-        "TR",
         "CY",
         "UA",
         "XK",
@@ -6392,6 +6389,9 @@ var simplemaps_worldmap_mapinfo = {
     4: {
       name: "Asia",
       states: [
+        "AM",
+        "GE",
+        "TR",
         "AE",
         "SY",
         "OM",
