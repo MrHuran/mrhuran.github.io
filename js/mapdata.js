@@ -12,7 +12,7 @@ var simplemaps_worldmap_mapdata={
     state_hover_color: "#3DAB2C",
     state_url: "https://simplemaps.com",
     border_size: 0.4,
-    border_color: "#6DC6DA",
+    border_color: "#27314C",
     all_states_inactive: "no",
     all_states_zoomable: "no",
     
