@@ -7,7 +7,7 @@ var simplemaps_worldmap_mapdata={
     popups: "detect",
     
 		//State defaults
-		state_description: "State description",
+		state_description: "Julie je vais te quoicoubeh espèce d'apagnan",
     state_color: "#88A4BC",
     state_hover_color: "#3B729F",
     state_url: "https://simplemaps.com",
