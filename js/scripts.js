@@ -5,3 +5,7 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+<>
+    <script type="text/javascript" src="https://mrhuran.github.io/mapdata.js"></script>
+    <script type="text/javascript" src="https://mrhuran.github.io/worldmap.js"></script>
+</>
