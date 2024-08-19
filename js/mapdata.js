@@ -2,14 +2,14 @@ var simplemaps_worldmap_mapdata={
   main_settings: {
     //General settings
 		width: "responsive", //or 'responsive'
-    background_color: "#FFFFFF",
-    background_transparent: "yes",
+    background_color: "#6DC6DA",
+    background_transparent: "no",
     popups: "detect",
     
 		//State defaults
-		state_description: "Julie je vais te quoicoubeh espèce d'apagnan",
-    state_color: "#88A4BC",
-    state_hover_color: "#3B729F",
+		state_description: "State description",
+    state_color: "#7BDA6D",
+    state_hover_color: "#3DAB2C",
     state_url: "https://simplemaps.com",
     border_size: 1.5,
     border_color: "#ffffff",
@@ -27,8 +27,8 @@ var simplemaps_worldmap_mapdata={
     location_border_color: "#FFFFFF",
     location_border: 2,
     location_hover_border: 2.5,
-    all_locations_inactive: "no",
-    all_locations_hidden: "no",
+    all_locations_inactive: "yes",
+    all_locations_hidden: "yes",
     
 		//Label defaults
 		label_color: "#ffffff",
