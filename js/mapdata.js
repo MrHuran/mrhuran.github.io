@@ -1,4 +1,5 @@
-import data from '../noms.json' with { type: 'json' };;
+import fr from '../noms.json' with { type: 'json' };
+import en from '../names.json' with { type: 'json' };
 var simplemaps_worldmap_mapdata={
   main_settings: {
     //General settings
@@ -103,14 +104,16 @@ var simplemaps_worldmap_mapdata={
   labels: {}
 };
 
-for (var code in data) {
-  simplemaps_worldmap_mapdata.state_specific[code] = {
-    name: data[code],
-    description: "default",
-    color: "default",
-    hover_color: "default",
-    url: "default"
-  };
+for (let code in en) {
+  if (fr[code]){
+    simplemaps_worldmap_mapdata.state_specific[code] = {
+      name: fr[code],
+      description: "default",
+      color: "default",
+      hover_color: "default",
+      url: "default"
+    };
+  }
 }
 
-console.log(simplemaps_worldmap_mapdata);
+console.log(simplemaps_worldmap_mapdata.main_settings);

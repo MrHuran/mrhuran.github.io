@@ -166,7 +166,7 @@
 	"NF" : "Île Norfolk",
 	"NG" : "Nigéria",
 	"NI" : "Nicaragua",
-	"NL" : "Pays-Bas",
+	"BQBO" : "Pays-Bas",
 	"NO" : "Norvège",
 	"NP" : "Népal",
 	"NR" : "Nauru",
@@ -249,5 +249,7 @@
 	"YT" : "Mayotte",
 	"ZA" : "Afrique Du Sud",
 	"ZM" : "Zambie",
-	"ZW" : "Zimbabwe"
+	"ZW" : "Zimbabwe",
+	"BQSA": "Saba (Pays-Bas)",
+	"BQSE": "St. Eustatius (Pays-Bas)"
 }
