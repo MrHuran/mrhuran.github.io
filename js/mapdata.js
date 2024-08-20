@@ -1,4 +1,4 @@
-import data from './noms.json' assert { type: 'json' };
+import data from '../noms.json' with { type: 'json' };;
 var simplemaps_worldmap_mapdata={
   main_settings: {
     //General settings
@@ -103,16 +103,14 @@ var simplemaps_worldmap_mapdata={
   labels: {}
 };
 
-// Boucle à travers chaque entrée dans noms.json
 for (var code in data) {
-  if (data.hasOwnProperty(code)) {
-    // Ajouter un nouvel objet pour chaque code de pays
-    simplemaps_worldmap_mapdata.state_specific[code] = {
-      name: data[code],
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    };
-  }
+  simplemaps_worldmap_mapdata.state_specific[code] = {
+    name: data[code],
+    description: "default",
+    color: "default",
+    hover_color: "default",
+    url: "default"
+  };
 }
+
+console.log(simplemaps_worldmap_mapdata);
