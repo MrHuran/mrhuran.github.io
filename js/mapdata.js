@@ -104,8 +104,8 @@ var simplemaps_worldmap_mapdata={
   labels: {}
 };
 
-for (let code in fr) {
-  //if (fr.indexOf(code) != -1){
+for (let code in en) {
+  if (fr[code]){
     simplemaps_worldmap_mapdata.state_specific[code] = {
       name: fr[code],
       description: "default",
@@ -113,7 +113,7 @@ for (let code in fr) {
       hover_color: "default",
       url: "default"
     };
-  //}
+  }
 }
 
 var i = 0;
