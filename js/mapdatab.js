@@ -1600,3 +1600,10 @@ var simplemaps_worldmap_mapdata={
   },
   labels: {}
 };
+
+var i = 0;
+for (let pays in simplemaps_worldmap_mapdata.state_specific){
+  i++;
+  console.log(pays);
+}
+console.log(i);
